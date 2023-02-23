@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    background-color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h2{
+color: grey;
+
+}
+h3{
+    color: grey;
+
+}
+h4{
+    color: black;
+    background-color: gray;
+}
+.golazo{
+    color: lightcoral;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 2px;
+    
+}
