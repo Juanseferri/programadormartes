@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        km = parseInt(prompt('Ingrese la cantidad de Km a recorrer en numeros:', ''));
+
+        if (km >= 0 && km <= 999 ) { // || OR
+            document.write('Pie.');
+        } else if (km >= 1000 && km <= 9999 ) {
+            document.write('Bicicleta');
+        } else if (km >= 10000 && km <= 29999) {
+            document.write('Colectivo.');
+        } else if (km >= 30000 && km <= 99999) {
+            document.write('Auto.');
+        } else {
+            document.write('Avion');
+        }
+    </script>
+
+</body>
+
+</html>
